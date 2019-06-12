@@ -20,5 +20,9 @@ public class DiverMenager {
         return driver;
     }
 
-    
+    public static void disposeDriver(){
+        driver.close();
+        driver.quit();
+        driver = null;
+    }
 }
