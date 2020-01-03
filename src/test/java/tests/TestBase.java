@@ -12,7 +12,7 @@ public class TestBase {
 
     @BeforeMethod
     public void beforeTest(){
-        System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\driver\\MicrosoftWebDriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
